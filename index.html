@@ -30,13 +30,13 @@
           <span class="mdl-layout-title">Area of Trapezoid Program, with JS</span>
         </div>
       </header>
-			<!-- Displayed Formula -->
+			<!-- Displayed Formula (Image) -->
       <main class="mdl-layout__content">
         <img src="./images/trapezoidformula.png" class="trapezoidformula" alt="trapezoidformula">
         <h2>Please Enter the Height and both Bases below:</h2>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Height</p>
+          <p>Height (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -44,14 +44,14 @@
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="height"
             />
-            <label class="mdl-textfield__label" for="height">Height...</label>
+            <label class="mdl-textfield__label" for="height">Height (cm)</label>
             <!-- Invalid input error -->
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Base-A</p>
+          <p>Base-A (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -59,14 +59,14 @@
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="base-a"
             />
-            <label class="mdl-textfield__label" for="base-a">Base...</label>
+            <label class="mdl-textfield__label" for="base-a">Base-A (cm)</label>
             <!-- Invalid input error -->
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
         </form>
         <!-- Numeric Textfield -->
         <form action="#">
-          <p>Base-B</p>
+          <p>Base-B (cm)</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
@@ -74,7 +74,7 @@
               pattern="-?[0-9]*(\.[0-9]+)?"
               id="base-b"
             />
-            <label class="mdl-textfield__label" for="base-b">Base...</label>
+            <label class="mdl-textfield__label" for="base-b">Base-B (cm)</label>
             <!-- Invalid input error -->
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -88,6 +88,7 @@
         </button>
         <br />
         <p>
+          <!-- Output from script.js file -->
           <div id="answers">
             <div id="area"></div>
           </div>
